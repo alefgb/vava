@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'vava';
+    src: url('Valorant Font.ttf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+*{
+    background-color: #0f1822;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: #ff4654;
+    font-family: vava;
+    font-size: 120px;
+}
+
+#menu{
+    background-color: #ff4654;
+    width: 1582px;
+    height: 25px;
+}
+
+h2{
+    background-color: #ff4654;
+    font-size: 20px;  
+    color: #0f1822;
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+
+#lolo{
+    margin-left: 370px;
+    margin-top: 10px;
+}
+
+h2:hover{
+    background-color: #d23744;
+}
+
+h3{
+    color: #ff4654;
+    padding: 2px;
+    font-family: vava;
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+p{
+    text-align: justify;
+    padding: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left:3px;
+    margin-right: 5px;
+}
+
+h4{
+    color: #ff4654;
+    padding: 2px;
+    font-family: vava;
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+.imx{
+    margin-top: 10px;
+    margin-bottom: px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    margin-left: 45px;
+}
+#men{
+    padding: 0px;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+
+#t1{
+    padding-top: 10px;
+}
+
+.bb{
+    display: inline-flex;
+    margin-left: 350px;
+}
+
+.ranks{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.rank{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.esconder{
+    display: none;
+}
+.esconde{
+    border-style: none;
+    color: white;
+    font-size: 18px;
+}
+.esconde:hover{
+    color: #ff4654;
+}
+.ranks:hover{
+    color: #ff4654;
+}
+#a{
+    margin-left: 6px;
+}
+#b{
+    margin-left: 10px;
+}
+#c{
+    margin-left: 5px;
+}
+#d{
+    margin-left: 8px;
+}
+#e{
+    margin-left: 6px;
+}
+#f{
+    margin-left: 6px;
+}
+#h{
+    margin-left: 12px;
+}
+#g{
+    margin-left: 8px;
+}
+#gg{
+    margin-top: 5px;
+}
+.fonte{
+    text-align: justify;
+    padding: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-left:3px;
+    margin-right: 5px;
+    margin-top: -10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: underline;
+}

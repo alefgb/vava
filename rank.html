@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ranque.css">
+    <script src="script.js" defer></script>
+    <title>Ranques</title>
+</head>
+<body>
+    <header>
+        <div id="lolo">
+            <h1><img src="ranklogo.png" alt="" id="logo"> Ranques</h1>
+        </div>
+        <div id="menu">
+            <a href="inicial.html">
+                <h2> INICIAL</h2>
+            </a>
+            <a href="mapas.html">
+                <h2>  MAPAS </h2>
+            </a>   <a href="duelista.html">
+                <h2> DUELISTA </h2>
+            </a>   <a href="sentinela.html">
+                <h2>SENTINELA</h2>
+            </a>     <a href="iniciador.html">
+                <h2>INICIADOR</h2>
+            </a>     <a href="controladores.html">
+                <h2>CONTROLADORES</h2>
+            </a>   <a href="">
+                <h2>RANQUES</h2>
+            </a>
+            <a href="nos.html">
+                <h2>SOBRE NÓS</h2>
+            </a>     
+        </div>
+    </header>
+    <main>
+        <h3 id="t1">
+            REQUISITOS PARA JOGAR NO MODO COMPETITIVO
+        </h3>
+        <p>
+            Não podemos enviar Agentes inexperientes e despreparados para a batalha. Por isso, no Episódio 4, Ato 1, você precisará de uma conta de Nível 20 ou superior antes de ganhar acesso ao Modo Competitivo. Você ainda poderá jogar no Competitivo se estiver abaixo do Nível 20, mas tiver jogado pelo menos uma partida ranqueada antes do Episódio 4. 
+        </p>
+        <div class="fonte">
+            Fonte: <a href="https://support-valorant.riotgames.com/hc/pt-br/articles/360047937633-VALORANT-Perguntas-Frequentes-do-Modo-Competitivo#:~:text=Os%20ranques%20s%C3%A3o%3A%20Ferro%2C%20Bronze,n%C3%BAmero%2C%20melhor%20ser%C3%A1%20o%20ranque." target="_blank" class="link">https://support-valorant.riotgames.com/</a>
+        </div>
+        <h4>
+            QUAL A DIFERENCA ENTRE RANQUE E RANQUE DE ATO?
+        </h4>
+        <p>
+            É importante que Agentes tenham um certo espírito competitivo, então desenvolvemos diferentes métodos para calcular suas habilidades. Se você joga VALORANT há algum tempo, já deve saber o que é Ranque. É uma forma de determinar, de forma precisa, tanto sua habilidade quanto seu ranque nas partidas. Além disso, esse é o seu ranque visível no grupo, na aba menu e no placar.
+            <div class="fonte">
+                Fonte: <a href="https://support-valorant.riotgames.com/hc/pt-br/articles/360047937633-VALORANT-Perguntas-Frequentes-do-Modo-Competitivo#:~:text=Os%20ranques%20s%C3%A3o%3A%20Ferro%2C%20Bronze,n%C3%BAmero%2C%20melhor%20ser%C3%A1%20o%20ranque." target="_blank" class="link">https://support-valorant.riotgames.com/</a>
+            </div>
+        </p>
+        <h4>
+            RANQUES
+        </h4>
+        <p>
+            Os ranques são: Ferro, Bronze, Prata, Ouro, Platina, Diamante, Ascendente, Imortal e Radiante. Com exceção de Radiante, cada ranque tem três tiers. Quanto mais alto for o número, melhor será o ranque. O ranque afetará diretamente o seu Ranque de Ato ao longo do tempo. <br>
+            <img src="ranks only.png" alt="" class="imx"> <br>
+            Quando um novo Episódio começa, todos os jogadores precisam jogar 5 partidas de colocação para serem colocados, sendo o Ascendente 1 a colocação inicial mais alta. Para receber sua classificação no Ato 2 ou 3, você precisará jogar 1 partida de colocação. Embora sua classificação não caia automaticamente no início de cada ato, ela pode cair se sua correspondência de posicionamento for difícil. <br>
+            Depois de ser colocado, você começará com 50 RR em sua classificação determinada e precisará de 100 RR para promover. Depois de atingir essa marca de cem, você começará a próxima classificação com um buffer mínimo de 10 RR (caso a próxima partida em uma nova classificação ou nível não seja como você esperava), Para rebaixar, você precisará acertar 0 RR e depois perder novamente. Você começará no próximo nível abaixo de 70 RR. <br>
+            Ganhar e perder tem o maior impacto no seu RR subindo ou descendo dependendo do final da partida. No entanto, existem outros fatores que têm um impacto menor, mas não menos notável. O quanto você ganha, jogadas extraordinárias e se você é ou não o azarão em uma partida podem ter um efeito. Como estamos olhando para o indivíduo, será seu desempenho sob revisão, e não o de seus companheiros de equipe, A quantidade de RR que você ganha ou perde é afetada pelo quão perto sua classificação está do seu MMR (classificação oculta de matchmaking). MMR é uma escada gigante composta por todos os jogadores, e dois jogadores não podem ocupar o mesmo lugar.
+            <div class="fonte">
+                Fonte: <a href="https://support-valorant.riotgames.com/hc/pt-br/articles/360047937633-VALORANT-Perguntas-Frequentes-do-Modo-Competitivo#:~:text=Os%20ranques%20s%C3%A3o%3A%20Ferro%2C%20Bronze,n%C3%BAmero%2C%20melhor%20ser%C3%A1%20o%20ranque." target="_blank" class="link">https://support-valorant.riotgames.com/</a>
+            </div>
+        </p>
+        <h4>
+            ENTENDENDO MELHOR COMO FUNCIONA A SEPARACAO DOS RANQUES
+        </h4>
+        <div class="rank" id="gg">
+            <img src="iron3.png" alt=""> <p class="ranks">Ferro <button class="esconde" onclick="mostra('img1')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img1">
+            <img src="FERRO.png" alt="">
+        </div>
+        <div class="rank" id="a">
+            <img src="bronze3.png" alt=""> <p class="ranks">Bronze <button class="esconde" onclick="mostra('img2')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img2">
+            <img src="BRONZE.png" alt="">
+        </div>
+        <div class="rank" id="b">
+            <img src="silver3.png" alt=""> <p class="ranks">Prata <button class="esconde" onclick="mostra('img3')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img3">
+            <img src="PRATA.png" alt="">
+        </div>
+        <div class="rank" id="c">
+            <img src="gold_3.png" alt="" > <p class="ranks">Ouro <button class="esconde" onclick="mostra('img4')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img4">
+            <img src="OURO.png" alt="">
+        </div>
+        <div class="rank" id="d">
+            <img src="platina3.png" alt=""> <p class="ranks">Platina <button class="esconde" onclick="mostra('img5')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img5">
+            <img src="PLATINA.png" alt="">
+        </div>
+        <div class="rank" id="e">
+            <img src="diamante3.png" alt=""> <p class="ranks">Diamante <button class="esconde" onclick="mostra('img6')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img6">
+            <img src="DIAMANTE.png" alt="">
+        </div>
+        <div class="rank" id="f">
+            <img src="ascendente3.png" alt=""> <p class="ranks">Ascendente <button class="esconde" onclick="mostra('img7')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img7">
+            <img src="ASCENDENTE.png" alt="">
+        </div>
+        <div class="rank" id="g">
+            <img src="imortal3.png" alt=""> <p class="ranks">Imortal <button class="esconde" onclick="mostra('img8')">⇩</button></p>
+        </div>
+        <div class="esconder" id="img8">
+            <img src="IMORTAL.png" alt="">
+        </div>
+        <div class="rank" id="h">
+            <img src="radiante.png" alt=""> <p class="ranks"> Radiante </p>
+        </div>
+        <h4>
+            RANQUE DE ATOS
+        </h4>
+        <p>
+            O Ranque de Ato mede seu ranque geral em, adivinha? Isso mesmo, um Ato inteiro! Ele é determinado pela sua vitória ranqueada mais alta, que gostamos de chamar de habilidade comprovada.Quando um novo Episódio começa, todos os jogadores precisam jogar 5 partidas de colocação para serem colocados, sendo o Ascendente 1 a colocação inicial mais alta. Para receber sua classificação no Ato 2 ou 3, você precisará jogar 1 partida de colocação. Após a colocação, seu Act Rank aumentará e diminuirá com suas vitórias e derrotas. <br>
+            Cada triângulo dentro da pirâmide representa uma vitória de partida classificada, com o triângulo no topo representando sua habilidade comprovada (vitória com classificação mais alta) - e sua classificação de ato, Sua  vitória mais alta é baseada na sua classificação no final da partida. Portanto, se você vencer uma partida que o promova ao Diamante 2, receberá um triângulo Diamante 2. A cor e a dimensão de cada triângulo mostram a classificação em que você estava quando venceu aquela partida em particular. As vitórias de uma classificação mais alta começarão lentamente a substituir as mais baixas para fornecer uma representação visual mais precisa do seu progresso. <br>
+            <img src="Act Rank wins.png" alt="" class="imx">  <br>
+            A borda que circunda a pirâmide é a sua fronteira de classificação de ato, Sua fronteira de classificação de ato evolui quando você tem 9, 25, 50, 75 e 100 vitórias competitivas, A barra de progresso abaixo da pirâmide mostra quantas vitórias você precisa para alcançar o próximo nível da fronteira. Seu Distintivo de Classificação de Ato representa sua vitória com classificação mais alta e pode ser visto na guia Carreira e no seu Cartão de Jogador, junto com sua classificação atual, Seu emblema só será concedido após a conclusão de um ato, portanto, se você se sentir orgulhoso de seu desempenho durante o ato 1, certifique-se de exibir seu emblema com orgulho no ato 2 e assim por diante, Para ganhar um emblema Act Rank e se qualificar para recompensas ranqueadas, você precisará vencer pelo menos nove jogos. <br>
+            <br>
+            <img src="act rank border.png" alt="" class="bb"> <img src="VAL Act Rank Triangle (2).png" alt="" class="bb">
+            <div class="fonte">
+                Fonte: <a href="https://support-valorant.riotgames.com/hc/pt-br/articles/360047937633-VALORANT-Perguntas-Frequentes-do-Modo-Competitivo#:~:text=Os%20ranques%20s%C3%A3o%3A%20Ferro%2C%20Bronze,n%C3%BAmero%2C%20melhor%20ser%C3%A1%20o%20ranque." target="_blank" class="link">https://support-valorant.riotgames.com/</a>
+            </div>
+        </p>
+        <h4>
+            MEU RANQUE CAI COM O TEMPO?
+        </h4>
+        <p>
+            A resposta simples e rápida é não! Decaimento de ranque não tem vez aqui, A resposta mais longa e completa continua sendo não, mas aqui vai um recado especial para quem está no Imortal e no Radiante: você pode descer na Tabela de Classificação. Mas relaxa, não houve rebaixamento. A sua posição na Tabela de Classificação só deu uma mudada.
+            <div class="fonte">
+                Fonte: <a href="https://support-valorant.riotgames.com/hc/pt-br/articles/360047937633-VALORANT-Perguntas-Frequentes-do-Modo-Competitivo#:~:text=Os%20ranques%20s%C3%A3o%3A%20Ferro%2C%20Bronze,n%C3%BAmero%2C%20melhor%20ser%C3%A1%20o%20ranque." target="_blank" class="link">https://support-valorant.riotgames.com/</a>
+            </div>
+        </p>
+        <h4>
+            POSSO JOGAR COMPETITIVO COM OS MEUS AMIGOS?
+        </h4>
+        <p>
+            Pode! A partir de agora, você poderá entrar na fila com seus amigos mesmo que haja uma grande diferença entre os níveis de habilidades de vocês (até um certo ponto, claro). Se for jogar em um grupo de 2 ou 3 pessoas, você só poderá entrar em uma partida do Competitivo caso os ranques dessas pessoas estejam dentro do limite de desigualdade de ranques.
+            <div class="fonte">
+                Fonte: <a href="https://support-valorant.riotgames.com/hc/pt-br/articles/360047937633-VALORANT-Perguntas-Frequentes-do-Modo-Competitivo#:~:text=Os%20ranques%20s%C3%A3o%3A%20Ferro%2C%20Bronze,n%C3%BAmero%2C%20melhor%20ser%C3%A1%20o%20ranque." target="_blank" class="link">https://support-valorant.riotgames.com/</a>
+            </div>
+        </p>
+        <p>
+            Siga para as outras paginas para saber mais
+        </p>
+        <div id="men">
+            <a href="mapas.html"><img src="script.png" alt="" class="img"></a>
+            <a href="duelista.html"><img src="vermelho.png" alt="" class="img"></a>
+            <a href="sentinela.html"><img src="amarelo.png" alt="" class="img"></a>
+            <a href="iniciador.html"><img src="verde.png" alt="" class="img"></a>
+            <a href="controladores.html"><img src="roxo.png" alt="" class="img"></a>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'vava';
+    src: url('Valorant Font.ttf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+*{
+    background-color: #0f1822;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: #ff4654;
+    font-family: vava;
+    font-size: 140px;
+}
+#lolo{
+    margin-left: 410px;
+    margin-top: 20px;
+}
+#menu{
+    background-color: #ff4654;
+    width: 1580px;
+    height: 25px;
+    margin-top: -18px;
+}
+h2{
+    background-color: #ff4654;
+    font-size: 20px;  
+    color: #0f1822;
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+#men{
+    padding: 0px;
+}
+h2:hover{
+    background-color: #d23744;
+}
+#frase{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: vava;
+    color: #ff4654;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+p{
+    text-align: justify;
+    padding: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left:3px;
+    margin-right: 5px;
+}
+.imx{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 10px;
+}
+h4{
+    font-family: vava;
+    color: #ff4654;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 15px;
+}
+.cane{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.mei{
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.mei1{
+    margin-left: 175px;
+    margin-top: 10px;
+}
+.mei2{
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.cand{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.cand1{
+    margin-left: 60px;
+    margin-top: 10px; 
+}
+.cand2{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: #ff4654;
+}
+#men{
+    padding: 0px;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+#t1{
+    padding-top: 10px;
+}
+.fonte{
+    text-align: justify;
+    padding: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    margin-bottom: -10px;
+    margin-left:3px;
+    margin-right: 5px;
+    margin-top: -8px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.img{
+    margin-left: 45px;
+}

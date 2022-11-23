@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'vava';
+    src: url('Valorant Font.ttf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+*{
+    background-color: #0f1822;
+    margin: 0px;
+    padding: 0px;
+}
+#lolo{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+h1{
+    color: #ff4654;
+    font-family: vava;
+    font-size: 140px;
+}
+#menu{
+    background-color: #ff4654;
+    width: 1582px;
+    height: 25px;
+}
+h2{
+    background-color: #ff4654;
+    font-size: 20px;  
+    color: #0f1822;
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+#men{
+    padding: 0px;
+}
+h3{
+    color: #ff4654;
+    padding: 2px;
+    font-family: vava;
+    font-size: 20px;
+    margin-left: 3px;
+}
+p{
+    text-align: justify;
+    padding: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left:3px;
+}
+h4{
+    color: #ff4654;
+    padding: 2px;
+    font-family: vava;
+    font-size: 15px;
+    margin-left: 3px;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+#t1{
+    padding-top: 10px;
+}
+h2:hover{
+    background-color: #d23744;
+}
+.video{
+    text-align: center;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: #ff4654;
+}
+.fonte{
+    text-align: justify;
+    padding: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-left:3px;
+    margin-right: 5px;
+    margin-top: -10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    text-decoration: underline;
+}
